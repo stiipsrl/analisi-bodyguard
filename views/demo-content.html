@@ -1,0 +1,403 @@
+<!-- Demo Container -->
+<div class="space-y-8">
+    <!-- Demo Introduction -->
+    <div class="bg-white rounded-xl shadow-md p-6">
+        <div class="border-l-4 brand-border pl-4 mb-8">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">Anteprima Applicazione</h2>
+            <p class="text-gray-600">
+                Questa demo mostra l'interfaccia principale dell'app Revolution, evidenziando le funzionalità chiave e l'esperienza utente prevista sia per l'area clienti che per l'area amministrativa.
+            </p>
+        </div>
+    </div>
+
+    <!-- Mobile App Preview -->
+    <div class="bg-gray-800 rounded-xl p-6 shadow-2xl">
+        <!-- Phone Frame -->
+        <div class="max-w-xs mx-auto bg-black rounded-3xl overflow-hidden shadow-lg">
+            <!-- Status Bar -->
+            <div class="bg-black text-white flex justify-between items-center px-4 py-2 text-xs">
+                <span>9:41</span>
+                <div class="flex items-center space-x-1">
+                    <span class="material-icons-outlined text-xs">signal_cellular_alt</span>
+                    <span class="material-icons-outlined text-xs">wifi</span>
+                    <span class="material-icons-outlined text-xs">battery_full</span>
+                </div>
+            </div>
+            
+            <!-- App Interface -->
+            <div class="bg-gray-50 h-[600px] overflow-hidden">
+                <!-- App Header -->
+                <div class="bg-brand px-5 py-4 flex justify-between items-center">
+                    <div class="flex items-center space-x-3">
+                        <span class="font-semibold text-gray-900">Bodyguard</span>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <button class="p-1 rounded-full bg-black bg-opacity-10">
+                            <span class="material-icons-outlined text-sm">notifications</span>
+                        </button>
+                        <div class="w-8 h-8 bg-gray-200 rounded-full flex items-center justify-center">
+                            <span class="material-icons-outlined text-xs">person</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Main Content -->
+                <div class="p-4 space-y-4 overflow-y-auto h-[calc(100%-72px)]">
+                    <!-- Welcome Section -->
+                    <div class="bg-white rounded-lg shadow-sm p-4">
+                        <h3 class="font-medium text-gray-800">Ciao, Marco!</h3>
+                        <p class="text-sm text-gray-600">Giorno 18 del tuo programma Revolution</p>
+                        
+                        <div class="mt-3 flex justify-between items-center">
+                            <div>
+                                <div class="text-xs text-gray-500">Progressi</div>
+                                <div class="mt-1 w-32 h-2 bg-gray-200 rounded-full overflow-hidden">
+                                    <div class="bg-green-500 h-full rounded-full" style="width: 35%"></div>
+                                </div>
+                            </div>
+                            <button class="px-3 py-1 bg-brand rounded text-xs font-medium">
+                                DETTAGLI
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Quick Links -->
+                    <div class="grid grid-cols-2 gap-3">
+                        <div class="bg-white p-3 rounded-lg shadow-sm flex flex-col items-center">
+                            <span class="material-icons-outlined text-brand">restaurant_menu</span>
+                            <span class="text-xs font-medium mt-1">Piano Alimentare</span>
+                        </div>
+                        <div class="bg-white p-3 rounded-lg shadow-sm flex flex-col items-center">
+                            <span class="material-icons-outlined text-brand">fitness_center</span>
+                            <span class="text-xs font-medium mt-1">Allenamento</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Today's Plan -->
+                    <div class="bg-white rounded-lg shadow-sm p-4">
+                        <h3 class="font-medium text-gray-800 mb-3">Il Tuo Piano di Oggi</h3>
+                        
+                        <div class="space-y-3">
+                            <div class="flex items-center justify-between p-2 bg-gray-50 rounded">
+                                <div class="flex items-center">
+                                    <span class="material-icons-outlined text-brand text-xs mr-2">schedule</span>
+                                    <span class="text-xs">Colazione</span>
+                                </div>
+                                <span class="text-xs text-green-600">Completato</span>
+                            </div>
+                            
+                            <div class="flex items-center justify-between p-2 bg-gray-50 rounded">
+                                <div class="flex items-center">
+                                    <span class="material-icons-outlined text-brand text-xs mr-2">schedule</span>
+                                    <span class="text-xs">Spuntino mattutino</span>
+                                </div>
+                                <span class="text-xs text-green-600">Completato</span>
+                            </div>
+                            
+                            <div class="flex items-center justify-between p-2 bg-gray-50 rounded">
+                                <div class="flex items-center">
+                                    <span class="material-icons-outlined text-brand text-xs mr-2">schedule</span>
+                                    <span class="text-xs">Pranzo</span>
+                                </div>
+                                <span class="text-xs text-blue-600">In corso</span>
+                            </div>
+                            
+                            <div class="flex items-center justify-between p-2 bg-gray-50 rounded">
+                                <div class="flex items-center">
+                                    <span class="material-icons-outlined text-brand text-xs mr-2">schedule</span>
+                                    <span class="text-xs">Allenamento</span>
+                                </div>
+                                <span class="text-xs text-gray-400">16:30</span>
+                            </div>
+                            
+                            <div class="flex items-center justify-between p-2 bg-gray-50 rounded">
+                                <div class="flex items-center">
+                                    <span class="material-icons-outlined text-brand text-xs mr-2">schedule</span>
+                                    <span class="text-xs">Cena</span>
+                                </div>
+                                <span class="text-xs text-gray-400">20:00</span>
+                            </div>
+                        </div>
+                        
+                        <button class="mt-4 w-full py-2 bg-brand rounded text-xs font-medium">
+                            VEDI DETTAGLI
+                        </button>
+                    </div>
+                    
+                    <!-- Latest Measurements -->
+                    <div class="bg-white rounded-lg shadow-sm p-4">
+                        <div class="flex justify-between items-center mb-3">
+                            <h3 class="font-medium text-gray-800">Misurazioni Recenti</h3>
+                            <span class="text-xs text-gray-500">08/03/25</span>
+                        </div>
+                        
+                        <div class="grid grid-cols-3 gap-2">
+                            <div class="bg-gray-50 p-2 rounded flex flex-col items-center">
+                                <span class="text-xs text-gray-500">Peso</span>
+                                <span class="font-medium">82.4 kg</span>
+                                <span class="text-xs text-green-500">-1.2 kg</span>
+                            </div>
+                            <div class="bg-gray-50 p-2 rounded flex flex-col items-center">
+                                <span class="text-xs text-gray-500">Grasso</span>
+                                <span class="font-medium">19.8%</span>
+                                <span class="text-xs text-green-500">-0.7%</span>
+                            </div>
+                            <div class="bg-gray-50 p-2 rounded flex flex-col items-center">
+                                <span class="text-xs text-gray-500">Muscolo</span>
+                                <span class="font-medium">32.1%</span>
+                                <span class="text-xs text-green-500">+0.3%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Bottom Tabs -->
+                    <div class="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 flex justify-around py-2 px-4">
+                        <button class="flex flex-col items-center">
+                            <span class="material-icons-outlined text-brand text-sm">home</span>
+                            <span class="text-xs">Home</span>
+                        </button>
+                        <button class="flex flex-col items-center">
+                            <span class="material-icons-outlined text-gray-400 text-sm">restaurant</span>
+                            <span class="text-xs text-gray-400">Nutrizione</span>
+                        </button>
+                        <button class="flex flex-col items-center">
+                            <span class="material-icons-outlined text-gray-400 text-sm">fitness_center</span>
+                            <span class="text-xs text-gray-400">Workout</span>
+                        </button>
+                        <button class="flex flex-col items-center">
+                            <span class="material-icons-outlined text-gray-400 text-sm">chat</span>
+                            <span class="text-xs text-gray-400">Chat</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Admin Panel Preview -->
+    <div class="bg-white rounded-xl shadow-md p-6">
+        <div class="border-l-4 brand-border pl-4 mb-6">
+            <h2 class="text-xl font-bold text-gray-800 mb-2">Pannello Amministrativo</h2>
+            <p class="text-gray-600">
+                Anteprima dell'interfaccia amministrativa per la gestione degli utenti, piani personalizzati e monitoraggio.
+            </p>
+        </div>
+        
+        <!-- Admin UI -->
+        <div class="bg-gray-800 rounded-xl p-4 overflow-hidden">
+            <!-- App Browser Chrome -->
+            <div class="bg-gray-100 rounded-t-lg flex items-center p-2 space-x-2">
+                <div class="flex space-x-1">
+                    <div class="w-3 h-3 bg-red-500 rounded-full"></div>
+                    <div class="w-3 h-3 bg-yellow-500 rounded-full"></div>
+                    <div class="w-3 h-3 bg-green-500 rounded-full"></div>
+                </div>
+                <div class="flex-1 bg-white rounded-full px-4 py-1 text-xs text-gray-600">
+                    admin.bodyguardfitness.it
+                </div>
+            </div>
+
+            <div class="bg-gray-50 h-[550px] rounded-b-lg overflow-hidden">
+                <!-- Admin Header -->
+                <div class="bg-white px-6 py-3 flex justify-between items-center border-b border-gray-200">
+                    <div class="flex items-center space-x-4">
+                        <span class="font-semibold text-gray-900">Bodyguard Fitness Club</span>
+                        <span class="text-xs px-2 py-1 bg-brand rounded text-gray-900">Admin</span>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <button class="p-2 text-gray-400 hover:text-gray-600">
+                            <span class="material-icons-outlined text-sm">notifications</span>
+                        </button>
+                        <div class="flex items-center space-x-2">
+                            <div class="w-8 h-8 bg-gray-200 rounded-full flex items-center justify-center">
+                                <span class="material-icons-outlined text-xs">admin_panel_settings</span>
+                            </div>
+                            <span class="text-sm">Admin</span>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Admin Content -->
+                <div class="grid grid-cols-12 gap-4 p-4 h-[calc(100%-61px)] overflow-y-auto">
+                    <!-- Sidebar -->
+                    <div class="col-span-3 bg-white rounded-lg shadow p-3">
+                        <div class="space-y-1">
+                            <div class="flex items-center space-x-2 p-2 bg-brand bg-opacity-10 rounded-lg text-gray-900">
+                                <span class="material-icons-outlined text-xs">dashboard</span>
+                                <span class="text-sm">Dashboard</span>
+                            </div>
+                            <div class="flex items-center space-x-2 p-2 hover:bg-gray-50 rounded-lg text-gray-600">
+                                <span class="material-icons-outlined text-xs">people</span>
+                                <span class="text-sm">Utenti</span>
+                            </div>
+                            <div class="flex items-center space-x-2 p-2 hover:bg-gray-50 rounded-lg text-gray-600">
+                                <span class="material-icons-outlined text-xs">restaurant_menu</span>
+                                <span class="text-sm">Piani Alimentari</span>
+                            </div>
+                            <div class="flex items-center space-x-2 p-2 hover:bg-gray-50 rounded-lg text-gray-600">
+                                <span class="material-icons-outlined text-xs">fitness_center</span>
+                                <span class="text-sm">Allenamenti</span>
+                            </div>
+                            <div class="flex items-center space-x-2 p-2 hover:bg-gray-50 rounded-lg text-gray-600">
+                                <span class="material-icons-outlined text-xs">medical_services</span>
+                                <span class="text-sm">Anamnesi</span>
+                            </div>
+                            <div class="flex items-center space-x-2 p-2 hover:bg-gray-50 rounded-lg text-gray-600">
+                                <span class="material-icons-outlined text-xs">chat</span>
+                                <span class="text-sm">Messaggi</span>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Main Content Area -->
+                    <div class="col-span-9 space-y-4">
+                        <!-- Quick Stats -->
+                        <div class="grid grid-cols-3 gap-4">
+                            <div class="bg-white p-3 rounded-lg shadow hover:shadow-md transition-shadow">
+                                <div class="flex items-center justify-between mb-2">
+                                    <span class="material-icons-outlined text-brand">group</span>
+                                    <span class="text-xs text-gray-500">Utenti Attivi</span>
+                                </div>
+                                <div class="text-xl font-bold text-gray-900">127</div>
+                                <div class="text-xs text-green-500">+4 questa settimana</div>
+                            </div>
+                            <div class="bg-white p-3 rounded-lg shadow hover:shadow-md transition-shadow">
+                                <div class="flex items-center justify-between mb-2">
+                                    <span class="material-icons-outlined text-brand">chat</span>
+                                    <span class="text-xs text-gray-500">Messaggi</span>
+                                </div>
+                                <div class="text-xl font-bold text-gray-900">18</div>
+                                <div class="text-xs text-yellow-500">5 da leggere</div>
+                            </div>
+                            <div class="bg-white p-3 rounded-lg shadow hover:shadow-md transition-shadow">
+                                <div class="flex items-center justify-between mb-2">
+                                    <span class="material-icons-outlined text-brand">analytics</span>
+                                    <span class="text-xs text-gray-500">Progressi Medi</span>
+                                </div>
+                                <div class="text-xl font-bold text-gray-900">-4.7%</div>
+                                <div class="text-xs text-green-500">Grasso corporeo</div>
+                            </div>
+                        </div>
+            
+                        <!-- Recent Users -->
+                        <div class="bg-white rounded-lg shadow p-4">
+                            <div class="flex justify-between items-center mb-4">
+                                <h3 class="font-semibold text-gray-800">Utenti Recenti</h3>
+                                <button class="text-xs text-brand hover:underline">Vedi tutti</button>
+                            </div>
+                            <div class="space-y-3">
+                                <div class="flex items-center justify-between p-2 hover:bg-gray-50 rounded-lg transition-colors">
+                                    <div class="flex items-center space-x-3">
+                                        <div class="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center">
+                                            <span class="text-xs font-medium text-blue-600">MP</span>
+                                        </div>
+                                        <div>
+                                            <div class="text-sm font-medium">Marco Poli</div>
+                                            <div class="text-xs text-gray-500">Giorno 18 • Tipo 2</div>
+                                        </div>
+                                    </div>
+                                    <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs">In corso</span>
+                                </div>
+                                <div class="flex items-center justify-between p-2 hover:bg-gray-50 rounded-lg transition-colors">
+                                    <div class="flex items-center space-x-3">
+                                        <div class="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center">
+                                            <span class="text-xs font-medium text-purple-600">SR</span>
+                                        </div>
+                                        <div>
+                                            <div class="text-sm font-medium">Sara Ricci</div>
+                                            <div class="text-xs text-gray-500">Giorno 32 • Tipo 1</div>
+                                        </div>
+                                    </div>
+                                    <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs">In corso</span>
+                                </div>
+                                <div class="flex items-center justify-between p-2 hover:bg-gray-50 rounded-lg transition-colors">
+                                    <div class="flex items-center space-x-3">
+                                        <div class="w-8 h-8 bg-amber-100 rounded-full flex items-center justify-center">
+                                            <span class="text-xs font-medium text-amber-600">LB</span>
+                                        </div>
+                                        <div>
+                                            <div class="text-sm font-medium">Luca Bianchi</div>
+                                            <div class="text-xs text-gray-500">Giorno 7 • Tipo 3</div>
+                                        </div>
+                                    </div>
+                                    <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs">In corso</span>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <!-- Ultimi piani alimentari creati -->
+                        <div class="bg-white rounded-lg shadow p-4">
+                            <div class="flex justify-between items-center mb-4">
+                                <h3 class="font-semibold text-gray-800">Piani Alimentari Recenti</h3>
+                                <button class="text-xs text-brand hover:underline">Gestisci tutti</button>
+                            </div>
+                            <div class="space-y-3">
+                                <div class="flex items-center justify-between p-2 hover:bg-gray-50 rounded-lg transition-colors">
+                                    <div class="flex items-center space-x-3">
+                                        <div class="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center">
+                                            <span class="material-icons-outlined text-green-600 text-xs">restaurant</span>
+                                        </div>
+                                        <div>
+                                            <div class="text-sm font-medium">Piano Tipo 2 - Low Carb</div>
+                                            <div class="text-xs text-gray-500">Creato 10/03/25 • 14 assegnazioni</div>
+                                        </div>
+                                    </div>
+                                    <button class="px-2 py-1 text-xs text-brand hover:text-brand-dark">
+                                        <span class="material-icons-outlined text-xs">edit</span>
+                                    </button>
+                                </div>
+                                <div class="flex items-center justify-between p-2 hover:bg-gray-50 rounded-lg transition-colors">
+                                    <div class="flex items-center space-x-3">
+                                        <div class="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center">
+                                            <span class="material-icons-outlined text-green-600 text-xs">restaurant</span>
+                                        </div>
+                                        <div>
+                                            <div class="text-sm font-medium">Piano Tipo 1 - Standard</div>
+                                            <div class="text-xs text-gray-500">Creato 05/03/25 • 28 assegnazioni</div>
+                                        </div>
+                                    </div>
+                                    <button class="px-2 py-1 text-xs text-brand hover:text-brand-dark">
+                                        <span class="material-icons-outlined text-xs">edit</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Feature Highlights -->
+    <div class="grid grid-cols-3 gap-6">
+        <div class="bg-white rounded-lg shadow p-4">
+            <div class="flex items-center space-x-2 mb-4">
+                <span class="material-icons-outlined text-[#FCD415]">brush</span>
+                <h4 class="font-medium text-gray-900">Design Intuitivo</h4>
+            </div>
+            <p class="text-sm text-gray-600">
+                Interfaccia utente moderna e facile da usare, progettata per motivare e guidare l'utente lungo tutto il percorso.
+            </p>
+        </div>
+
+        <div class="bg-white rounded-lg shadow p-4">
+            <div class="flex items-center space-x-2 mb-4">
+                <span class="material-icons-outlined text-[#FCD415]">devices</span>
+                <h4 class="font-medium text-gray-900">Multipiattaforma</h4>
+            </div>
+            <p class="text-sm text-gray-600">
+                Accessibile su iOS e Android per gli utenti, con pannello web per gli amministratori. Sincronizzazione dati in tempo reale.
+            </p>
+        </div>
+
+        <div class="bg-white rounded-lg shadow p-4">
+            <div class="flex items-center space-x-2 mb-4">
+                <span class="material-icons-outlined text-[#FCD415]">speed</span>
+                <h4 class="font-medium text-gray-900">Performance</h4>
+            </div>
+            <p class="text-sm text-gray-600">
+                Ottimizzata per garantire tempi di caricamento rapidi e un'esperienza fluida anche con numerose misurazioni e piani personalizzati.
+            </p>
+        </div>
+    </div>
+</div>
