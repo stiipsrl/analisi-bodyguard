@@ -4,8 +4,10 @@
         <div class="border-l-4 brand-border pl-4 mb-8">
             <h2 class="text-2xl font-bold text-gray-800 mb-4">APP Revolution</h2>
             <p class="text-gray-600">
-                Innovativa applicazione mobile progettata per rivoluzionare il percorso di fitness e dimagrimento dei clienti di Bodyguard Fitness Club. 
-                Connette utenti, esperti e professionisti del fitness in un'unica soluzione digitale integrata per massimizzare risultati e motivazione.
+                Innovativa applicazione mobile multi-tenant progettata per rivoluzionare il percorso di fitness e dimagrimento 
+                dei clienti di Bodyguard Fitness Club e delle palestre affiliate. 
+                Connette utenti, esperti e professionisti del fitness in un'unica soluzione digitale integrata 
+                per massimizzare risultati e motivazione.
             </p>
         </div>
 
@@ -36,7 +38,8 @@
         <div class="border-l-4 brand-border pl-4 mb-6">
             <h2 class="text-xl font-bold text-gray-800 mb-2">Informazioni sul Progetto</h2>
             <p class="text-gray-600">
-                App Revolution è la nuova piattaforma mobile di Bodyguard Fitness Club, disegnata specificamente per supportare il programma Revolution per la trasformazione fisica e il dimagrimento.
+                App Revolution è la nuova piattaforma mobile multi-tenant di Bodyguard Fitness Club, disegnata specificamente per supportare 
+                il programma Revolution per la trasformazione fisica e il dimagrimento, che potrà essere distribuita a più palestre affiliate.
             </p>
         </div>
         
@@ -44,7 +47,9 @@
             <div>
                 <h3 class="font-medium text-gray-800 mb-3">Obiettivi del Progetto</h3>
                 <p class="text-gray-600">
-                    Sviluppare un'applicazione mobile (iOS, Android) supportata da un pannello amministrativo web che permetta agli utenti di gestire il loro percorso di dimagrimento e agli amministratori di monitorare e supportare i progressi di ogni cliente.
+                    Sviluppare un'applicazione mobile (iOS, Android) supportata da un pannello amministrativo web che permetta alle palestre di gestire 
+                    il percorso di dimagrimento dei loro clienti e agli amministratori di monitorare e supportare i progressi di ogni utente, 
+                    con una struttura multi-tenant che consenta a diverse palestre del network Bodyguard di avere il proprio spazio dedicato.
                 </p>
             </div>
             
@@ -57,18 +62,94 @@
                     <li class="flex items-start">
                         <span class="material-icons-outlined text-brand text-sm mr-2">arrow_right</span>
                         <div>
-                            <p class="font-medium text-gray-700">Fase 1 (Step 1): Funzionalità Base - 6 settimane</p>
-                            <p class="text-sm text-gray-600">Implementazione delle funzionalità essenziali per la gestione dei piani personalizzati, comunicazione e monitoraggio.</p>
+                            <p class="font-medium text-gray-700">Fase 1 (Step 1): Funzionalità Base - 6 sprint</p>
+                            <p class="text-sm text-gray-600">Implementazione dell'architettura multi-tenant e delle funzionalità essenziali per la gestione dei piani personalizzati, comunicazione e monitoraggio.</p>
                         </div>
                     </li>
                     <li class="flex items-start">
                         <span class="material-icons-outlined text-brand text-sm mr-2">arrow_right</span>
                         <div>
-                            <p class="font-medium text-gray-700">Fase 2 (Step 2): Funzionalità Avanzate - 6 settimane</p>
-                            <p class="text-sm text-gray-600">Implementazione di funzionalità evolute come scansione alimenti, integrazione con Technogym e sistemi avanzati di supporto.</p>
+                            <p class="font-medium text-gray-700">Fase 2 (Step 2): Funzionalità Avanzate - 4 sprint</p>
+                            <p class="text-sm text-gray-600">Implementazione di funzionalità evolute come scansione alimenti, chatbot avanzato e sistemi personalizzati di monitoraggio.</p>
                         </div>
                     </li>
                 </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Multi-tenant Architecture Section -->
+    <div class="bg-white rounded-xl shadow-md p-6">
+        <div class="border-l-4 brand-border pl-4 mb-6">
+            <h2 class="text-xl font-bold text-gray-800 mb-2">Architettura Multi-Tenant</h2>
+            <p class="text-gray-600">
+                La piattaforma è progettata con un'architettura multi-tenant che permette a diverse palestre affiliate al brand Bodyguard
+                di utilizzare la stessa applicazione mantenendo i propri dati completamente separati e sicuri.
+            </p>
+        </div>
+        
+        <div class="space-y-4">
+            <div>
+                <h3 class="font-medium text-gray-800 mb-3">Vantaggi dell'Architettura Multi-Tenant</h3>
+                <ul class="mt-2 space-y-2 ml-4">
+                    <li class="flex items-start">
+                        <span class="material-icons-outlined text-brand text-sm mr-2">arrow_right</span>
+                        <div>
+                            <p class="font-medium text-gray-700">Scalabilità del Business</p>
+                            <p class="text-sm text-gray-600">Possibilità di espandere facilmente il network di palestre affiliate con costi marginali ridotti.</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="material-icons-outlined text-brand text-sm mr-2">arrow_right</span>
+                        <div>
+                            <p class="font-medium text-gray-700">Consistenza dell'Esperienza</p>
+                            <p class="text-sm text-gray-600">Esperienza utente unificata e coerente in tutte le palestre affiliate con possibilità di personalizzazioni.</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="material-icons-outlined text-brand text-sm mr-2">arrow_right</span>
+                        <div>
+                            <p class="font-medium text-gray-700">Efficienza Operativa</p>
+                            <p class="text-sm text-gray-600">Aggiornamenti e miglioramenti applicati simultaneamente a tutti i tenant in modo centralizzato.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
+            <div>
+                <h3 class="font-medium text-gray-800 mb-3">Livelli di Accesso</h3>
+                <div class="bg-gray-50 p-4 rounded-lg">
+                    <ul class="space-y-2">
+                        <li class="flex items-start">
+                            <span class="material-icons-outlined text-brand text-sm mr-2">admin_panel_settings</span>
+                            <div>
+                                <p class="font-medium text-gray-700">Super Admin</p>
+                                <p class="text-sm text-gray-600">Amministrazione globale della piattaforma e gestione di tutti i tenant.</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="material-icons-outlined text-brand text-sm mr-2">business</span>
+                            <div>
+                                <p class="font-medium text-gray-700">Admin Palestra</p>
+                                <p class="text-sm text-gray-600">Gestione specifica di una singola palestra e dei suoi utenti.</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="material-icons-outlined text-brand text-sm mr-2">medical_services</span>
+                            <div>
+                                <p class="font-medium text-gray-700">Admin Medico</p>
+                                <p class="text-sm text-gray-600">Accesso ai dati medici e nutrizionali dei clienti della propria palestra.</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="material-icons-outlined text-brand text-sm mr-2">person</span>
+                            <div>
+                                <p class="font-medium text-gray-700">Cliente</p>
+                                <p class="text-sm text-gray-600">Accesso limitato ai propri dati e piani personalizzati.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
@@ -99,7 +180,7 @@
                 </li>
                 <li class="flex items-start">
                     <span class="material-icons-outlined text-red-500 mr-2 text-sm">close</span>
-                    Limitata visibilità dei risultati ottenuti
+                    Difficoltà nell'ampliare l'offerta a nuove palestre affiliate
                 </li>
             </ul>
         </div>
@@ -128,7 +209,7 @@
                 </li>
                 <li class="flex items-start">
                     <span class="material-icons-outlined text-green-500 mr-2 text-sm">check</span>
-                    Dashboard di visualizzazione risultati e progressi
+                    Piattaforma multi-tenant per espansione del network
                 </li>
             </ul>
         </div>
@@ -167,11 +248,11 @@
                     </li>
                     <li class="flex items-center">
                         <span class="material-icons-outlined text-brand text-sm mr-2">check</span>
-                        <span>Tecnologie Web e Mobile Ibride</span>
+                        <span>Architettura multi-tenant con isolamento dati</span>
                     </li>
                     <li class="flex items-center">
                         <span class="material-icons-outlined text-brand text-sm mr-2">check</span>
-                        <span>Integrazione API Technogym (Step 2)</span>
+                        <span>Tecnologie Web e Mobile Ibride</span>
                     </li>
                 </ul>
             </div>
@@ -181,7 +262,7 @@
     <!-- Target Users -->
     <div class="bg-white rounded-xl shadow-md p-6">
         <h3 class="text-lg font-semibold text-gray-800 mb-6">Utenti Target</h3>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
             <div class="p-4 bg-gray-50 rounded-lg border border-gray-200 hover-card">
                 <div class="flex items-center mb-3">
                     <span class="material-icons-outlined text-[#FCD415] mr-2">person</span>
@@ -195,7 +276,7 @@
                     <span class="material-icons-outlined text-[#FCD415] mr-2">admin_panel_settings</span>
                     <h4 class="font-medium">Amministratori</h4>
                 </div>
-                <p class="text-sm text-gray-600">Staff di Bodyguard che gestisce i programmi e monitora i progressi</p>
+                <p class="text-sm text-gray-600">Staff delle palestre affiliate che gestiscono i programmi e monitorano i progressi</p>
             </div>
 
             <div class="p-4 bg-gray-50 rounded-lg border border-gray-200 hover-card">
@@ -204,6 +285,14 @@
                     <h4 class="font-medium">Team di Esperti</h4>
                 </div>
                 <p class="text-sm text-gray-600">Medici, nutrizionisti e personal trainer che assistono i clienti</p>
+            </div>
+
+            <div class="p-4 bg-gray-50 rounded-lg border border-gray-200 hover-card">
+                <div class="flex items-center mb-3">
+                    <span class="material-icons-outlined text-[#FCD415] mr-2">business</span>
+                    <h4 class="font-medium">Gestori Palestre</h4>
+                </div>
+                <p class="text-sm text-gray-600">Proprietari e manager delle palestre affiliate al network Bodyguard</p>
             </div>
         </div>
     </div>
@@ -218,6 +307,10 @@
                     Area Admin
                 </h4>
                 <ul class="space-y-2 text-gray-600">
+                    <li class="flex items-start">
+                        <span class="material-icons-outlined text-brand text-sm mr-2">arrow_right</span>
+                        <span>Gestione tenant e palestre affiliate</span>
+                    </li>
                     <li class="flex items-start">
                         <span class="material-icons-outlined text-brand text-sm mr-2">arrow_right</span>
                         <span>Creazione e gestione piani alimentari personalizzati</span>
@@ -261,7 +354,7 @@
                     </li>
                     <li class="flex items-start">
                         <span class="material-icons-outlined text-brand text-sm mr-2">arrow_right</span>
-                        <span>Scansione alimenti e integrazione Technogym (Step 2)</span>
+                        <span>Scansione alimenti (Step 2)</span>
                     </li>
                 </ul>
             </div>
@@ -275,7 +368,68 @@
             <div>
                 <h4 class="font-medium text-gray-800 mb-2">Nota sul Progetto</h4>
                 <p class="text-gray-600">
-                    Questa overview presenta la visione generale dell'applicazione App Revolution, sviluppata per Bodyguard Fitness Club. Il progetto sarà implementato in due fasi (Step 1 e Step 2) come richiesto dal cliente, con una metodologia di sviluppo agile per garantire la massima flessibilità e valore incrementale. Nelle sezioni successive saranno dettagliati gli sprint di sviluppo, il design dell'interfaccia utente e gli aspetti di conformità GDPR.
+                    Questa overview presenta la visione generale dell'applicazione App Revolution, sviluppata per Bodyguard Fitness Club come piattaforma multi-tenant. 
+                    Il progetto sarà implementato in due fasi (Step 1 con 6 sprint e Step 2 con 4 sprint) come richiesto dal cliente, 
+                    con una metodologia di sviluppo agile per garantire la massima flessibilità e valore incrementale. 
+                    La natura multi-tenant consente di estendere l'utilizzo dell'app a diverse palestre affiliate, mantenendo un'esperienza utente coerente 
+                    e garantendo al contempo la separazione dei dati tra le diverse palestre.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- STIIP Expertise Section -->
+    <div class="bg-white rounded-xl shadow-md p-6 mt-8">
+        <div class="border-l-4 brand-border pl-4 mb-6">
+            <h2 class="text-xl font-bold text-gray-800 mb-2">Esperienza STIIP nello Sviluppo Multi-Tenant</h2>
+            <p class="text-gray-600">
+                STIIP S.r.l. vanta una solida esperienza nello sviluppo di applicazioni multi-tenant scalabili e sicure, con diversi casi di successo 
+                che dimostrano la nostra competenza in questo campo specifico.
+            </p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="bg-gray-50 rounded-lg p-5 border border-gray-200 hover-card">
+                <div class="flex items-center mb-4">
+                    <img src="https://givemehive.it/wp-content/uploads/2024/05/logo-gmh.svg" alt="GiveMeHive Logo" class="h-10 mr-3">
+                </div>
+                <p class="text-gray-600 mb-4">
+                    CRM in cloud modulare e multi-tenant che offre una soluzione completa per la gestione delle relazioni con i clienti e molto altro, 
+                    personalizzabile per diverse tipologie di business e scalabile in base alle esigenze specifiche.
+                </p>
+                <div class="flex items-center">
+                    <a href="https://givemehive.it/" target="_blank" rel="noopener noreferrer" class="text-brand hover:underline flex items-center">
+                        <span>Visita il sito</span>
+                        <span class="material-icons-outlined text-sm ml-1">open_in_new</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="bg-gray-50 rounded-lg p-5 border border-gray-200 hover-card">
+                <div class="flex items-center mb-4">
+                    <img src="https://www.volontapp.it/wp-content/uploads/2016/05/LOGO-HEADER.png" alt="VolontApp Logo" class="h-10 mr-3">
+                </div>
+                <p class="text-gray-600 mb-4">
+                    Servizio multi-tenant per la gestione delle Associazioni di volontariato come Misericordie e Croce Rossa ecc ecc. 
+                    Comprende un'applicazione mobile (iOS e Android) e un pannello web per gli amministratori dell'associazione, 
+                    consentendo una gestione efficiente dei volontari e delle attività.
+                </p>
+                <div class="flex items-center">
+                    <a href="https://www.volontapp.it/" target="_blank" rel="noopener noreferrer" class="text-brand hover:underline flex items-center">
+                        <span>Visita il sito</span>
+                        <span class="material-icons-outlined text-sm ml-1">open_in_new</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="mt-6 bg-brand-10 p-4 rounded-lg">
+            <div class="flex items-start">
+                <span class="material-icons-outlined text-brand mr-2 mt-1">stars</span>
+                <p class="text-gray-600">
+                    L'esperienza maturata con questi progetti ci permette di applicare le migliori pratiche nello sviluppo di App Revolution, 
+                    garantendo una soluzione robusta, scalabile e sicura che risponde perfettamente alle esigenze di un'architettura multi-tenant 
+                    per il network di palestre Bodyguard Fitness Club.
                 </p>
             </div>
         </div>
